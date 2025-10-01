@@ -26,6 +26,39 @@ Componentes eletrónicos (resistores, capacitores, fios, jumpers)
 
 Programação
 
-Python, com os pacotes:
-Pygame
+Python, com os pacotes principais:
+Pygame, RPi, rpi_ws281x, mfrc522.
+
+Construção
+
+O tabuleiro foi desenhado, impresso em 3D e gravado a laser.
+### imagens ###
+
+A interface apresentada no ecrã foi desenhada no Inkscape.
+### imagens ###
+
+
+
+Lógica de funcionamento
+
+A programação é dividida em módulos python. 
+O módulo main.py é responsável pelo loop principal do jogo, enquanto os demais executam ações adicionais ou controlam dispositivos eletrónicos.
+O arquivo json é uma biblioteca que possui todos os dados das cartas. 
+### diagrama ###
+### imagens ###
+
+As regras do jogo são similares ao jogo original, com a exceção de algumas cartas, que estão ausentes.
+
+Exemplo da carta "herói", que não é afetada pelas cartas especiais.
+- Simulação de cartas no tabuleiro.
+### imagens ###
+- Aplicacao da regra, idêntica ao jogo original.
+### imagens ###
+
+O jogo possui lógicas de proteção para evitar erros e jogadas indevidas. 
+Por exemplo: Não é possível repetir cartas; a leitura duplicada é protegida; jogar cartas não permitidas; realizar ações não permitidas, etc...
+
+
+
+
 
