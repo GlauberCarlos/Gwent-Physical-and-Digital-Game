@@ -1,6 +1,8 @@
-# 🧩 Projeto: Gwent-Physical-and-Digital-Game
+# 🧩 Projeto: Gwent Board
 "Gwent Board" é o projeto de um tabuleiro para 2 jogadores que mistura interações físicas e digitais.
 É baseado inteiramente no jogo Gwent, na sua versão presente em The Witcher 3 - Wild Hunt, com ligeiras modificações.
+
+<img src="inicio.png" alt="inicio" width="600"/>
 
 ---
 
@@ -46,14 +48,12 @@ Python, os pacotes principais são:
 | Design Cartas |
 |------------------------|
 | <img src="Cartas.png" alt="Cartas" width="500"/> | 
-| Excel e JSON Cartas |
+| Excel com parâmetros das Cartas |
 | <img src="cartas-excel 1.png" alt="Cartas" width="500"/> |
-| <img src="cartas-excel 2.png" alt="Cartas" width="200"/> |
 | Design ecrã |
 | <img src="Interface.png" alt="Interface" width="500"/> |
 | Gravações no tabuleiro |
 | <img src="gravacao 1.png" alt="Tabuleiro" width="500"/> |
-| <img src="gravacao 2.png" alt="Tabuleiro" width="300"/> |
 
 ---
 
@@ -61,9 +61,18 @@ Python, os pacotes principais são:
 
 - A programação é dividida em módulos python. 
 - O módulo main.py é responsável pelo loop principal do jogo, enquanto os demais módulos executam ações adicionais ou controlam dispositivos eletrónicos.
-- O arquivo json é uma biblioteca que possui todos os dados das cartas. 
+- O arquivo json é uma biblioteca que possui todos os dados das cartas.
+  
 | Diagrama |
-| <img src="Diagrama Funcoes.png" alt="Diagrama" width="800"/> |
+|------------------------| 
+| <img src="Diagrama Funcoes.png" alt="Diagrama" width="1000"/> |
+- As setas duplas indicam que o módulo recebe e envia informações.
+- Os módulos verdes possuem sua própria execução. O led_process.py é separado pois precisa de permissão especial.
+
+| JSON |
+|------------------------| 
+| <img src="cartas-excel 2.png" alt="json" width="350"/> |
+
 
 ---
 ## 🎯 Jogo em si
@@ -80,16 +89,27 @@ Fluxo explicado abaixo:
 - Quem vencer mais rodadas (de 3), ganha o jogo.
   
 ---
-Exemplo da carta "herói", que não é afetada pelas cartas especiais.
-- Simulação de cartas no tabuleiro.
-### imagens ###
-- Aplicacao da regra, idêntica ao jogo original.
-### imagens ###
+
+## 🔍 Simulação de cartas no tabuleiro
+| Carta "herói" junto com uma carta comum, na mesma fileira |
+|------------------------| 
+| <img src="regras 1.png" alt="regras" width="600"/> |
+
+| Simulação da pontuação, caso alguma destas cartas especiais fossem usadas |
+|------------------------| 
+| <img src="regras 2.png" alt="regras" width="600"/> |
+
+| Outras cartas especiais que também não afetam a carta "herói" |
+|------------------------| 
+| <img src="regras 3.png" alt="regras" width="600"/> |
+
 
 --- 
 
 ## ✨ O jogo possui lógicas de proteção para evitar erros e jogadas indevidas. 
 Por exemplo: Não é possível repetir cartas; a leitura duplicada é protegida; não é possíveljogar cartas não permitidas no momento, etc...
+
+💡 🖼️ 📌 🌐 🛠️ ✅ 🚧 📬 👤 ℹ️ 🧭 📱 🖨️ 🚀 
 
 ## Imagens e Vídeos reais
 
