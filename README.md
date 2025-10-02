@@ -1,9 +1,11 @@
 # 🧩 Projeto: Gwent-Physical-and-Digital-Game
 "Gwent Board" é o projeto de um tabuleiro para 2 jogadores que mistura interações físicas e digitais.
 É baseado inteiramente no jogo Gwent, na sua versão presente em The Witcher 3 - Wild Hunt, com ligeiras modificações.
+
 ---
+
 📌 Direitos:
-Gwent e The Witcher são marcas registradas, bem como suas artes, regras, músicas e quaisquer outras criações. 
+- Gwent e The Witcher são marcas registradas, bem como suas artes, regras, músicas e quaisquer outras criações. 
 O projeto não pode ser vendido e não possui fins lucrativos. O projeto "Gwent Board" é destinado ao aprendizado e diversão pessoal.
 
 ---
