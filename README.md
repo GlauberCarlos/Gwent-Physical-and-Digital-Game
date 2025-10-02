@@ -26,12 +26,12 @@ Componentes eletrónicos (resistores, capacitores, fios, jumpers)
 
 Programação
 
-Python, com os pacotes principais:
+Python, os pacotes principais são:
 Pygame, RPi, rpi_ws281x, mfrc522.
 
 Construção
 
-O tabuleiro foi desenhado, impresso em 3D e gravado a laser.
+O tabuleiro foi desenhado, impresso em 3D e gravado a laser. Usado o SolidWorks e Inkscape.
 ### imagens ###
 
 A interface apresentada no ecrã foi desenhada no Inkscape.
@@ -42,12 +42,23 @@ A interface apresentada no ecrã foi desenhada no Inkscape.
 Lógica de funcionamento
 
 A programação é dividida em módulos python. 
-O módulo main.py é responsável pelo loop principal do jogo, enquanto os demais executam ações adicionais ou controlam dispositivos eletrónicos.
+O módulo main.py é responsável pelo loop principal do jogo, enquanto os demais módulos executam ações adicionais ou controlam dispositivos eletrónicos.
 O arquivo json é uma biblioteca que possui todos os dados das cartas. 
 ### diagrama ###
 ### imagens ###
 
-As regras do jogo são similares ao jogo original, com a exceção de algumas cartas, que estão ausentes.
+Jogo em si
+
+As regras do jogo são similares ao do jogo Gwent original, com a exceção de algumas cartas, que estão ausentes.
+Fluxo explicado abaixo:
+
+- Jogo por turnos. Cada carta jogada passa pelo sensor, que contabiliza a pontuação, realiza uma função específica ou aguarda alguma decisão do jogador.
+- A carta jogada deverá ir para o local determinado.
+- A rodada acaba quando ambos os jogadores "passam a vez". O jogador sem cartas passa a vez automaticamente.
+- Quem tiver maior pontuação vence a rodada.
+- As cartas da rodada recém-terminada vão para o lixo.
+- Inicia-se uma nova rodada com as cartas que sobraram nas mãos.
+- Quem vencer mais rodadas (de 3), ganha o jogo.
 
 Exemplo da carta "herói", que não é afetada pelas cartas especiais.
 - Simulação de cartas no tabuleiro.
@@ -56,7 +67,8 @@ Exemplo da carta "herói", que não é afetada pelas cartas especiais.
 ### imagens ###
 
 O jogo possui lógicas de proteção para evitar erros e jogadas indevidas. 
-Por exemplo: Não é possível repetir cartas; a leitura duplicada é protegida; jogar cartas não permitidas; realizar ações não permitidas, etc...
+Por exemplo: Não é possível repetir cartas; a leitura duplicada é protegida; não é possíveljogar cartas não permitidas no momento, etc...
+
 
 
 
