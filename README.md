@@ -14,15 +14,15 @@ O projeto não pode ser vendido e não possui fins lucrativos. O projeto "Gwent 
 
 ## 📝 Lista de peças
 
-- Raspberry pi model 3B
-- Leitor NFC RC522
+- Raspberry Pi 3 Model B
+- Módulo NFC RC522
 - Cartões NFC
-- Modulo Amplificador de áudio I2S max98357a
-- Auto-falante 3w 4ohms
-- Led Ws2812b
-- Swithes NO com LED
-- Ecrã HDMI 7"
-- Fonte alimentação 5V 2.5A
+- Módulo Amplificador de Áudio I2S MAX98357A
+- Alto-falante 3w 4ohms
+- LED WS2812B
+- Switches NO com LED
+- Display HDMI 7"
+- Fonte de alimentação 5V 2.5A
 - Cabos HDMI e USB
 - Componentes eletrónicos (resistores, capacitores, fios, jumpers)
 
@@ -31,26 +31,31 @@ O projeto não pode ser vendido e não possui fins lucrativos. O projeto "Gwent 
 ## 🧰 Programação
 
 Python, os pacotes principais são:
-- Pygame, RPi, rpi_ws281x, mfrc522.
+- pygame, RPi.GPIO, rpi_ws281x, mfrc522.
 ---
 ## ⚙️ Processo de criação/construção
 
 - Criei a lógica de programação e algoritmos, obtive muito auxílio do ChatGPT com a linguagem Python, bem como a instalação das libs e interação com os pacotes e dispositivos.
-- Os inputs de eletrônica e ligações ao Raspberry pi foram dados pelo ChatGPT.
-- O design 2D das cartas, impressão e adesivos foram feitos por mim.
-- A organização das cartas em JSON foi feira por mim.
-- O design apresentado no ecrã foi feito por mim.
-- O projeto do tabuleiro e a impressão em 3D foram feitas por mim.
-- A gravação dos desenhos no tabuleiro foram feitas por mim.
+- As orientações de eletrónica e ligações ao Raspberry pi foram dados pelo ChatGPT.
 - As músicas em background são originais do jogo Gwent, versão "The Witcher 3 - Wild Hunt".
 - Alguns efeitos sonoros são originais do jogo Gwent, outros são sons genéricos editados.
+  
+📌
+- O design 2D das cartas, impressão e adesivos;
+- A organização das cartas em JSON;
+- O design apresentado no display;
+- O projeto do tabuleiro e a impressão em 3D;
+- A gravação dos desenhos no tabuleiro.
+  
+Todos esses trabalhos foram feitos por mim.
+
 
 | Design Cartas |
 |------------------------|
 | <img src="Cartas.png" alt="Cartas" width="500"/> | 
 | Excel com parâmetros das Cartas |
 | <img src="cartas-excel 1.png" alt="Cartas" width="500"/> |
-| Design ecrã |
+| Design Display |
 | <img src="Interface.png" alt="Interface" width="500"/> |
 | Gravações no tabuleiro |
 | <img src="gravacao 1.png" alt="Tabuleiro" width="500"/> |
@@ -59,9 +64,9 @@ Python, os pacotes principais são:
 
 ## ⚙️ Lógica de funcionamento
 
-- A programação é dividida em módulos python. 
+- A programação é dividida em módulos em python. 
 - O módulo main.py é responsável pelo loop principal do jogo, enquanto os demais módulos executam ações adicionais ou controlam dispositivos eletrónicos.
-- O arquivo json é uma biblioteca que possui todos os dados das cartas.
+- O arquivo JSON contém todos os dados das cartas.
   
 | Diagrama |
 |------------------------| 
@@ -111,6 +116,7 @@ Por exemplo: Não é possível repetir cartas; a leitura duplicada é protegida;
 
 ## Imagens e Vídeos reais
 
+## Próximos passos.
 
 💡 🖼️ 📌 🌐 🛠️ ✅ 🚧 📬 👤 ℹ️ 🧭 📱 🖨️ 🚀 
 
