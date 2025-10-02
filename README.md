@@ -84,6 +84,7 @@ Todos esses trabalhos foram feitos por mim.
 ## 🎯 Jogo em si
 
 As regras do jogo são similares ao do jogo Gwent original, com a exceção de algumas cartas, que estão ausentes.
+
 Fluxo explicado abaixo:
 
 - Jogo por turnos. Cada carta jogada passa pelo sensor, que contabiliza a pontuação, realiza uma função específica ou aguarda alguma decisão do jogador.
