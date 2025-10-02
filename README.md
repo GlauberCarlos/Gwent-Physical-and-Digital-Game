@@ -107,12 +107,10 @@ Fluxo explicado abaixo:
 --- 
 
 ## ✨ O jogo possui lógicas de proteção para evitar erros e jogadas indevidas. 
-Por exemplo: Não é possível repetir cartas; a leitura duplicada é protegida; não é possíveljogar cartas não permitidas no momento, etc...
-
-💡 🖼️ 📌 🌐 🛠️ ✅ 🚧 📬 👤 ℹ️ 🧭 📱 🖨️ 🚀 
+Por exemplo: Não é possível repetir cartas; a leitura duplicada é protegida; não é possível jogar cartas não permitidas no momento, etc...
 
 ## Imagens e Vídeos reais
 
 
-
+💡 🖼️ 📌 🌐 🛠️ ✅ 🚧 📬 👤 ℹ️ 🧭 📱 🖨️ 🚀 
 
