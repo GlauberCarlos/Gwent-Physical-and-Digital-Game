@@ -4,13 +4,13 @@
 
 ---
 
-📌 Direitos:
+⚠️ Direitos:
 - Gwent e The Witcher são marcas registradas, bem como suas artes, regras, músicas e quaisquer outras criações. 
 O projeto não pode ser vendido e não possui fins lucrativos. O projeto "Gwent Board" é destinado ao aprendizado e diversão pessoal.
 
 ---
 
-## 🛠️ Lista de peças
+## 📝 Lista de peças
 
 - Raspberry pi model 3B
 - Leitor NFC RC522
@@ -26,23 +26,34 @@ O projeto não pode ser vendido e não possui fins lucrativos. O projeto "Gwent 
 
 ---
 
-## Programação
+## 🧰 Programação
 
 Python, os pacotes principais são:
 - Pygame, RPi, rpi_ws281x, mfrc522.
 ---
-## Processo de criação/construção
+## ⚙️ Processo de criação/construção
 
 - Criei a lógica de programação e algoritmos, obtive muito auxílio do ChatGPT com a linguagem Python, bem como a instalação das libs e interação com os pacotes e dispositivos.
 - Os inputs de eletrônica e ligações ao Raspberry pi foram dados pelo ChatGPT.
 - O design 2D das cartas, impressão e adesivos foram feitos por mim.
+- A organização das cartas em JSON foi feira por mim.
 - O design apresentado no ecrã foi feito por mim.
 - O projeto do tabuleiro e a impressão em 3D foram feitas por mim.
 - A gravação dos desenhos no tabuleiro foram feitas por mim.
 - As músicas em background são originais do jogo Gwent, versão "The Witcher 3 - Wild Hunt".
 - Alguns efeitos sonoros são originais do jogo Gwent, outros são sons genéricos editados.
 
-### imagens ###
+| Design Cartas |
+|------------------------|
+| <img src="Cartas.png" alt="Cartas" width="500"/> | 
+| Excel e JSON Cartas |
+| <img src="cartas-excel 1.png" alt="Cartas" width="500"/> |
+| <img src="cartas-excel 2.png" alt="Cartas" width="200"/> |
+| Design ecrã |
+| <img src="Interface.png" alt="Interface" width="500"/> |
+| Gravações no tabuleiro |
+| <img src="gravacao 1.png" alt="Tabuleiro" width="500"/> |
+| <img src="gravacao 2.png" alt="Tabuleiro" width="300"/> |
 
 ---
 
@@ -51,8 +62,9 @@ Python, os pacotes principais são:
 - A programação é dividida em módulos python. 
 - O módulo main.py é responsável pelo loop principal do jogo, enquanto os demais módulos executam ações adicionais ou controlam dispositivos eletrónicos.
 - O arquivo json é uma biblioteca que possui todos os dados das cartas. 
-### diagrama ###
-### imagens ###
+| Diagrama |
+| <img src="Diagrama Funcoes.png" alt="Diagrama" width="800"/> |
+
 ---
 ## 🎯 Jogo em si
 
@@ -76,10 +88,10 @@ Exemplo da carta "herói", que não é afetada pelas cartas especiais.
 
 --- 
 
-O jogo possui lógicas de proteção para evitar erros e jogadas indevidas. 
+## ✨ O jogo possui lógicas de proteção para evitar erros e jogadas indevidas. 
 Por exemplo: Não é possível repetir cartas; a leitura duplicada é protegida; não é possíveljogar cartas não permitidas no momento, etc...
 
-
+## Imagens e Vídeos reais
 
 
 
