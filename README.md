@@ -6,9 +6,11 @@
 
 ---
 
-⚠️ Direitos:
-- Gwent e The Witcher são marcas registradas, bem como suas artes, regras, músicas e quaisquer outras criações. 
-O projeto não pode ser vendido e não possui fins lucrativos. O projeto "Gwent Board" é destinado ao aprendizado e diversão pessoal.
+⚠️ Direitos
+
+🚧 Gwent e The Witcher são marcas registradas, bem como suas artes, regras, músicas e quaisquer outras criações. 
+
+🚧 O projeto não pode ser vendido e não possui fins lucrativos. O projeto "Gwent Board" é destinado ao aprendizado e diversão pessoal.
 
 ---
 
@@ -39,8 +41,7 @@ Python, os pacotes principais são:
 - As orientações de eletrónica e ligações ao Raspberry pi foram dados pelo ChatGPT.
 - As músicas em background são originais do jogo Gwent, versão "The Witcher 3 - Wild Hunt".
 - Alguns efeitos sonoros são originais do jogo Gwent, outros são sons genéricos editados.
-  
-📌
+---
 - O design 2D das cartas, impressão e adesivos;
 - A organização das cartas em JSON;
 - O design apresentado no display;
