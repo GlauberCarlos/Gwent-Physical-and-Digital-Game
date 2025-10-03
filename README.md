@@ -34,6 +34,14 @@
 
 Python, os pacotes principais são:
 - pygame, RPi.GPIO, rpi_ws281x, mfrc522.
+- Trechos de alguns módulos abaixo:
+
+<img src="codigo1.png" alt="codigo" width="600"/>
+<img src="codigo2.png" alt="codigo" width="600"/>
+<img src="codigo3.png" alt="codigo" width="300"/>
+<img src="codigo4.png" alt="codigo" width="600"/>
+<img src="codigo5.png" alt="codigo" width="500"/>
+
 ---
 ## ⚙️ Processo de criação/construção
 
@@ -141,24 +149,27 @@ Fluxo simplificado abaixo:
 | Tela de início |
 |------------------------| 
 | Antes de iniciar a rodada, os leds funcionam como um arco-íris |
-| O arco-íris é ativado durante o jogo ao usar a carta de Incentivo na fileira |
+| O arco-íris é ativado durante o jogo ao usar a carta de Incentivo na fileira desejada |
 | <img src="gwent_render(4).png" alt="render" width="700"/> |
 | <img src="gwent_render(2).png" alt="render" width="700"/> |
 
 | Efeitos temporais |
 |------------------------| 
-| A fileira com o efeito temporal ativo fica com o led acesso em azul |
+| A fileira com o efeito Nevoeiro, Nevasca ou Tempestade ativo fica com o led acesso em azul |
 | <img src="gwent_render(3).png" alt="render" width="700"/> |
 
 | Vidas restantes e Botões de ação |
 |------------------------| 
-| Os 2 pares de leds acima do Display indicam a quantidade de vida restante de cada jogador |
+| Os 2 pares de leds acima do Display indicam a quantidade de vidas restantes de cada jogador |
 | Os 3 botões abaixo do Display são utilizados para ações específicas e possuem leds indicadores |
 | <img src="gwent_render(1).png" alt="render" width="700"/> |
 
 ## Imagens e Vídeos reais
 
 ## Próximos passos.
+
+- Desenvolvimento da versão GWENT LITE, com a mesma jogabilidade e uso de cartas NFC.
+- A versão LITE funcionará com o smartphone e não possuirá tabuleiro físico.
 
 💡 🖼️ 📌 🌐 🛠️ ✅ 🚧 📬 👤 ℹ️ 🧭 📱 🖨️ 🚀 
 
