@@ -2,7 +2,7 @@
 "Gwent Board" é o projeto de um tabuleiro para 2 jogadores que mistura interações físicas e digitais.
 É baseado inteiramente no jogo Gwent, na sua versão presente em The Witcher 3 - Wild Hunt, com ligeiras modificações.
 
-<img src="inicio.png" alt="inicio" width="600"/>
+<img src="inicio.png" alt="inicio" width="1000"/>
 
 ---
 
@@ -130,7 +130,30 @@ Fluxo simplificado abaixo:
 --- 
 
 ## ✨ O jogo possui lógicas de proteção para evitar erros e jogadas indevidas. 
-Por exemplo: Não é possível repetir cartas; a leitura duplicada é protegida; não é possível jogar cartas não permitidas no momento, etc...
+
+- A leitura duplicada é protegida
+- Não é possível repetir cartas do próprio jogador ou já usadas pelo adversário
+- Não é possível jogar cartas não permitidas em um momento específico
+
+## 🖼️ Imagens de conceito renderizadas
+
+| Tela de início |
+|------------------------| 
+| Antes de iniciar a rodada, os leds funcionam como um arco-íris |
+| O arco-íris é ativado durante o jogo ao usar a carta de Incentivo na fileira |
+| <img src="gwent_render(4).png" alt="render" width="700"/> |
+| <img src="gwent_render(2).png" alt="render" width="700"/> |
+
+| Efeitos temporais |
+|------------------------| 
+| A fileira com o efeito temporal ativo fica com o led acesso em azul |
+| <img src="gwent_render(3).png" alt="render" width="700"/> |
+
+| Vidas restantes e Botões de ação |
+|------------------------| 
+| Os 2 pares de leds acima do Display indicam a quantidade de vida restante de cada jogador |
+| Os 3 botões abaixo do Display são utilizados para ações específicas e possuem leds indicadores |
+| <img src="gwent_render(1).png" alt="render" width="700"/> |
 
 ## Imagens e Vídeos reais
 
