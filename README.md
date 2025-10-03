@@ -61,13 +61,14 @@ Todos esses trabalhos foram feitos por mim.
 
 | Tabela de cartas do Excel |
 |------------------------|
-| Usado para organizar as características das cartas |
+| Usado para organizar as características de cada carta |
 | <img src="cartas-excel 1.png" alt="Cartas" width="500"/> |
 
 | Design Display (interface) |
 |------------------------|
 | Mostra a pontuação de cada jogador |
-| Quantidade de cartas nas mãos |
+| A vez do jogador |
+| Quantidade de cartas nas mãos de cada um |
 | Efeitos aplicados |
 | Textos com nomes das cartas e instruções |
 | <img src="Interface.png" alt="Interface" width="500"/> |
@@ -99,15 +100,15 @@ Todos esses trabalhos foram feitos por mim.
 ---
 ## 🎯 O jogo em si
 
-As regras do jogo são similares ao do jogo Gwent original, com a exceção de algumas cartas, que estão ausentes.
+As regras do jogo são similares ao do jogo Gwent original com algumas pequenas alterações. Há 2 funções de cartas ausentes.
 
 Fluxo simplificado abaixo:
 
 - Jogo por turnos. Cada carta jogada passa pelo sensor, que contabiliza a pontuação, realiza uma função específica ou aguarda alguma decisão do jogador.
-- A carta jogada deverá ir para o local determinado.
+- A carta jogada deverá ir para o local determinado, seja a fileira, espaço temporal ou lixo.
 - A rodada acaba quando ambos os jogadores "passam a vez". O jogador sem cartas passa a vez automaticamente.
 - Quem tiver maior pontuação vence a rodada.
-- As cartas da rodada recém-terminada vão para o lixo.
+- As cartas da mesa vão para o lixo.
 - Inicia-se uma nova rodada com as cartas que sobraram nas mãos.
 - Quem vencer mais rodadas (de 3), ganha o jogo.
   
@@ -118,11 +119,11 @@ Fluxo simplificado abaixo:
 |------------------------| 
 | <img src="regras 1.png" alt="regras" width="600"/> |
 
-| Simulação da pontuação, caso alguma destas cartas especiais fossem usadas |
+| Simulação da pontuação, caso fossem usadas a carta Sirene do Comandante e/ou Nevoeiro |
 |------------------------| 
 | <img src="regras 2.png" alt="regras" width="600"/> |
 
-| Outras cartas especiais que também não afetam a carta "herói" |
+| Outras cartas com efeitos especiais que não podem ser usadas com a carta "herói" |
 |------------------------| 
 | <img src="regras 3.png" alt="regras" width="600"/> |
 
