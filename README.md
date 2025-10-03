@@ -64,13 +64,13 @@ Todos esses trabalhos foram feitos por mim.
 | Usado para organizar as características de cada carta |
 | <img src="cartas-excel 1.png" alt="Cartas" width="500"/> |
 
-| Design Display (interface) |
+| Design do Display (interface) |
 |------------------------|
-| Mostra a pontuação de cada jogador |
+| Pontuação dos jogadores |
 | A vez do jogador |
 | Quantidade de cartas nas mãos de cada um |
-| Efeitos aplicados |
-| Textos com nomes das cartas e instruções |
+| Efeitos ativos |
+| Nomes das cartas, instruções e avisos |
 | <img src="Interface.png" alt="Interface" width="500"/> |
 
 | Gravações no tabuleiro |
