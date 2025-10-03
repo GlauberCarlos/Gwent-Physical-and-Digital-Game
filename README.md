@@ -53,12 +53,28 @@ Todos esses trabalhos foram feitos por mim.
 
 | Design Cartas |
 |------------------------|
+| As cartas NFC são menores do que as artes originais |
+| Facções foram adicionadas às cartas que não possuíam |
+| Alguns efeitos ou fileiras foram alterados |
+| Os textos foram traduzidos para português |
 | <img src="Cartas.png" alt="Cartas" width="500"/> | 
-| Excel com parâmetros das Cartas |
+
+| Tabela de cartas do Excel |
+|------------------------|
+| Usado para organizar as características das cartas |
 | <img src="cartas-excel 1.png" alt="Cartas" width="500"/> |
-| Design Display |
+
+| Design Display (interface) |
+|------------------------|
+| Mostra a pontuação de cada jogador |
+| Quantidade de cartas nas mãos |
+| Efeitos aplicados |
+| Textos com nomes das cartas e instruções |
 | <img src="Interface.png" alt="Interface" width="500"/> |
+
 | Gravações no tabuleiro |
+|------------------------|
+| Desenhos 2D feitos para gravar a peça à laser |
 | <img src="gravacao 1.png" alt="Tabuleiro" width="500"/> |
 
 ---
@@ -81,11 +97,11 @@ Todos esses trabalhos foram feitos por mim.
 
 
 ---
-## 🎯 Jogo em si
+## 🎯 O jogo em si
 
 As regras do jogo são similares ao do jogo Gwent original, com a exceção de algumas cartas, que estão ausentes.
 
-Fluxo explicado abaixo:
+Fluxo simplificado abaixo:
 
 - Jogo por turnos. Cada carta jogada passa pelo sensor, que contabiliza a pontuação, realiza uma função específica ou aguarda alguma decisão do jogador.
 - A carta jogada deverá ir para o local determinado.
