@@ -166,6 +166,8 @@ Fluxo simplificado abaixo:
 
 ## Imagens e Vídeos reais
 
+🚧 🧭 ... Em atualização ...
+
 ## Próximos passos.
 
 - Desenvolvimento da versão GWENT LITE, com a mesma jogabilidade e uso de cartas NFC.
